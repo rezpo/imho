@@ -15,9 +15,9 @@ process.on("uncaughtException", (err) => {
 
 export default function (
     err: Error,
-    req: Request,
+    _req: Request,
     res: Response,
-    next: NextFunction
+    _next: NextFunction
 ) {
     logger.error(err.message, err);
     res.status(500).send(err);

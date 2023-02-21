@@ -1,7 +1,7 @@
 import config from "config";
 import { ApolloServer } from "@apollo/server";
 import { startStandaloneServer } from "@apollo/server/standalone";
-import { database, logger } from "./startup/index";
+import { database, logger } from "@startup/index";
 import { resolvers } from "@resolvers/categories";
 import { typeDefs } from "@models/categories/schema.graphql";
 

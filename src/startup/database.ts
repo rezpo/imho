@@ -2,7 +2,7 @@ import mongoose, { ConnectOptions } from "mongoose";
 import config from "config";
 import logger from "./logger";
 
-mongoose.set("strictQuery", false);
+// mongoose.set("strictQuery", false);
 
 export default function () {
     const db: { [key: string]: any } = config.get("db");
