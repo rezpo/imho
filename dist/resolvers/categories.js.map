@@ -1,0 +1,1 @@
+{"version":3,"file":"categories.js","sourceRoot":"","sources":["../../src/resolvers/categories.ts"],"names":[],"mappings":"AAAA,MAAM,UAAU,GAAG,CAAC,EAAE,IAAI,EAAE,MAAM,EAAE,EAAE,EAAE,IAAI,EAAE,MAAM,EAAE,EAAE,EAAE,IAAI,EAAE,MAAM,EAAE,CAAC,CAAC;AAE1E,MAAM,CAAC,MAAM,SAAS,GAAG;IACrB,KAAK,EAAE;QACH,UAAU,EAAE,GAAG,EAAE,CAAC,UAAU;KAC/B;CACJ,CAAC"}

@@ -1,0 +1,32 @@
+{
+    "compilerOptions": {
+        "target": "ES2020",
+        "module": "ES2020",
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
+        "sourceMap": true,
+        "baseUrl": "./",
+        "paths": {
+            "@middleware/*": ["src/middleware/*"],
+            "@startup/*": ["src/startup/*"],
+            "@routes/*": ["src/routes/*"],
+            "@models/*": ["src/models/*"],
+            "@resolvers/*": ["src/resolvers/*"]
+        },
+        "typeRoots": ["./node_modules/@types", "./@types"],
+        "outDir": "./dist",
+        "forceConsistentCasingInFileNames": true,
+        "strict": true,
+        "skipLibCheck": true,
+        "types": ["node", "express", "joi-objectid"]
+    },
+    "include": ["./src/**/*"],
+    "exclude": ["./node_modules", "**/*.spec.ts"],
+    "resolve": {
+        "extensions": [".ts", ".js"]
+    },
+    "ts-node": {
+        "require": ["tsconfig-paths/register"]
+    }
+}
